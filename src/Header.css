@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Poppins&family=Roboto&display=swap');
+
+:root{
+    --logo__color:#febd69;
+    --mone: 'Montserrat', sans-serif;
+    --muli: 'Mulish', sans-serif;
+    --pop: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+.header-hamburger-menu{
+    color: white;
+    margin: 15px 10px;
+    padding: 5px 5px;
+    outline: 0.1px solid rgb(233, 232, 232) !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+.header-hamburger-menu:hover{
+    outline:none;
+    box-shadow: 0 0 0 2px #ffffff !important;
+    border-radius: 2px !important;
+    transition: 0.2s;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: black !important;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.header__logo {
+    box-sizing: border-box;
+    object-fit: contain;
+    max-width: 190px;
+    margin: 0px 0px 0px 5px;
+}
+.header__logoOne{
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 200px;
+    height: 56px;
+    display: flex;
+    cursor: pointer !important;
+}
+.header__logoOne:hover{
+    outline: 1px solid white;
+    transition: 0.5s !important;
+
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+}
+.header__search:focus{
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 3px 0 0 3px;
+}
+.header__searchInput:focus{
+    outline: none;
+}
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: var(--logo__color);
+    border: none;
+    border-radius: 0px 3px 3px 0px !important;
+    cursor: pointer;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: var(--mone);
+
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__optionLineOne{
+    font-size: 10px;
+}
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+.header__optionBasket{
+    display: flex;
+    justify-content: center;
+}
+.header__basketCount{
+    margin-left: 0px;
+    margin-right: 10px;
+    text-decoration: none !important;
+}

@@ -1,0 +1,123 @@
+.checkoutProduct{
+    height: 139px;
+    width: 50%;
+    margin-left: 2vw;
+    background-color: white;
+    margin-bottom: 3px;
+}
+.checkoutItem{
+    height: 107px;
+    background-color: rgb(251, 251, 251);
+    padding: 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    color: rgb(235, 148, 34) !important;
+}
+.img-wrap{
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+.cart-item-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-right: 10px;
+    overflow: auto;
+}
+
+.cart-item-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.price{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: rgb(235, 148, 34);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.operations{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .cart-item-end{
+        height: 80px;
+        width: 108px;    
+    }
+
+    .inner-quantity{
+        display: flex;
+        flex-direction: row;
+        height: 32px;
+        width: 108px;
+        align-items: center;
+    }
+    
+    #quantity-num{
+        background-color: transparent;
+        width: 42px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-color: transparent;
+    }
+    #quantity-num:focus {
+        outline: 0.1px solid green;
+        transition: 0.5s;
+        transition: all .3s ease-out;
+        outline: none;
+    }
+
+    .minus-quantity{
+        background-color:rgb(234,237,237);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .plus-quantity{
+        background-color: rgb(234,237,237);
+        color: white;
+        cursor: pointer;
+    }
+    
+    #FavIcon:hover{
+        border-radius: 50%;
+        background-color: gray;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        cursor: pointer;
+
+    }
+    .FavIcon:hover{
+        border-radius: 50%;
+        background-color: gray;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        cursor: pointer;
+
+    }
+    .remove{
+        color: red !important;
+    }
